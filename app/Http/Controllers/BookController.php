@@ -36,7 +36,7 @@ class BookController extends Controller
                 'year' => 'required',
             ]);
 
-            // Create a new book
+
             $book = new Book();
             $book->name = $request->input('name');
             $book->author_id = $request->input('author_id');
